@@ -11,3 +11,14 @@ I ran into some issue with variable assignment.  I kept getting syntax errors ex
 I want to start writing tests from the begining here, but I'm unsure how to do that with the app I've written so far. I've read how tests work in Go, so I get the idea, but how do you test a REST api?
 
 **Link to work:** [GoREST](https://github.com/clcollins/gorest)
+
+### Day 1: May 17th, 2018
+
+
+**Today's Progress**: Got some basic tests working for the HTTP requests, got logging working to STDOUT, as container culture dictates.
+
+**Thoughts:** I need to read more about Go types, and how to identify them.  Over and over, I was trying to print or return types that were not convertable or whatever.
+
+It's stupid annoying trying to get *http.Request info, or I have not yet figured out how to do it well.
+
+**Link to work:** [GoREST](https://github.com/clcollins/gorest)
