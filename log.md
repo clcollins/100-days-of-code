@@ -22,3 +22,19 @@ I want to start writing tests from the begining here, but I'm unsure how to do t
 It's stupid annoying trying to get *http.Request info, or I have not yet figured out how to do it well.
 
 **Link to work:** [GoREST](https://github.com/clcollins/gorest)
+
+### Day 2: May 19th, 2018
+
+
+**Today's Progress**: Figured out how to capture query parameters from the *http.Request using `req.URL.Query()`, and both log them and use them to return data.
+ 
+ I also got a better understanding of what maps are - they're hashes.  They works just like hashes, exactly the same way as hashs work in Ruby and Python.  Why this took so long to realize I 100% attribute to the `map[KeyType]ValueType` notation in the Go docs.
+
+Also learned about variable scope.  That is going to trip me up.  It's a bit different than I'm used to.
+
+Also learned the difference between `Println` and `Printf` in a practical context.
+
+**Thoughts:** A decent amount of troubleshooting and thinking I didn't understand the Go docs turned out to be a failed understanding of how to pass query parameters using HTTPie.  (Hint: `cheese==american` is correct.  `cheese=american` is not.)  I finally confirmed with CURL that I was doing the right thing in the code, but sending bad data with HTTPie.  When I run into a road block in the future it will help to double-check assumpions, especially if I can use another tool to do so. 
+
+**Link to work:** [GoREST](https://github.com/clcollins/gorest)
+
