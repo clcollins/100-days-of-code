@@ -25,7 +25,6 @@ It's stupid annoying trying to get *http.Request info, or I have not yet figured
 
 ### Day 2: May 19th, 2018
 
-
 **Today's Progress**: Figured out how to capture query parameters from the *http.Request using `req.URL.Query()`, and both log them and use them to return data.
  
  I also got a better understanding of what maps are - they're hashes.  They works just like hashes, exactly the same way as hashs work in Ruby and Python.  Why this took so long to realize I 100% attribute to the `map[KeyType]ValueType` notation in the Go docs.
@@ -35,6 +34,14 @@ Also learned about variable scope.  That is going to trip me up.  It's a bit dif
 Also learned the difference between `Println` and `Printf` in a practical context.
 
 **Thoughts:** A decent amount of troubleshooting and thinking I didn't understand the Go docs turned out to be a failed understanding of how to pass query parameters using HTTPie.  (Hint: `cheese==american` is correct.  `cheese=american` is not.)  I finally confirmed with CURL that I was doing the right thing in the code, but sending bad data with HTTPie.  When I run into a road block in the future it will help to double-check assumpions, especially if I can use another tool to do so. 
+
+**Link to work:** [GoREST](https://github.com/clcollins/gorest)
+
+### Day 3: May 20th, 2018
+
+**Today's Progress**:  No real actual progress today, which is frustrating.  I played around with Structs, and tried to understand what I was doing.  Along with that, tried to encode json from a struct, and failed.  Or perhaps succeeded, but was printing something I didn't expect.  I spend the last part of the time trying tweaking some tests.
+
+**Thoughts:** Before the next hour, I need to spend an hour working on a tutorial.  Apparently, there's a "How to Write A Webapp" section to the Golang docs, so I should try to run throught that.
 
 **Link to work:** [GoREST](https://github.com/clcollins/gorest)
 
