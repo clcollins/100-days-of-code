@@ -45,3 +45,19 @@ Also learned the difference between `Println` and `Printf` in a practical contex
 
 **Link to work:** [GoREST](https://github.com/clcollins/gorest)
 
+
+### Day 4: May 21th, 2018
+
+**Today's Progress**:  Did a bunch of reading & random testing of Structs, trying to learn how they work.
+
+**Thoughts:**
+
+1. I do not understand pointers.  I suspect it's a programming fundimental I didn't ever learn in picking up programming with practical/operational exposure.
+2. I am unsure about the is-a vs. has-a nature of embedded type structs, re: [The GoLang Book Intro 9](https://www.golang-book.com/books/intro/9). I can't seem to get them to inherit from the parent.
+
+**Link to work:** 
+
+1. [My GoTour & Related Code](https://github.com/clcollins/gotour)
+2. [Trying out inherited\(?\) structs](https://play.golang.org/p/IgfztiWDFyr)
+
+
