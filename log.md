@@ -60,4 +60,18 @@ Also learned the difference between `Println` and `Printf` in a practical contex
 1. [My GoTour & Related Code](https://github.com/clcollins/gotour)
 2. [Trying out inherited\(?\) structs](https://play.golang.org/p/IgfztiWDFyr)
 
+### Day 5: May 21th, 2018
 
+**Today's Progress**: Today wrote my own impelmentation of the [RabbitMQ Golang sender example](https://www.rabbitmq.com/tutorials/tutorial-one-go.html), with functions and a few vars.
+
+**Thoughts:**
+
+1. Today felt better.  I was using someone else's code as an example to work from, but relatively easily broke all the bits out into functions so I could get more familiar with them.
+
+2. Had some trouble getting used to declaring return variables, but getting the hang of it.
+
+3. Found two flaws in the RabbitMQ Go example!
+
+**Link to work:** 
+
+1. [GoBunny](https://github.com/clcollins/gobunny)
