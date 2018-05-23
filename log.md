@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 0: May 16th, 2018
+### Day 0: May 16, 2018
 
 **Today's Progress**: Created the beginnings of GoREST, a RESTful app I'm using to learn how to write Go...and REST apps.
 
@@ -12,7 +12,7 @@ I want to start writing tests from the begining here, but I'm unsure how to do t
 
 **Link to work:** [GoREST](https://github.com/clcollins/gorest)
 
-### Day 1: May 17th, 2018
+### Day 1: May 17, 2018
 
 
 **Today's Progress**: Got some basic tests working for the HTTP requests, got logging working to STDOUT, as container culture dictates.
@@ -23,7 +23,7 @@ It's stupid annoying trying to get *http.Request info, or I have not yet figured
 
 **Link to work:** [GoREST](https://github.com/clcollins/gorest)
 
-### Day 2: May 19th, 2018
+### Day 2: May 19, 2018
 
 **Today's Progress**: Figured out how to capture query parameters from the *http.Request using `req.URL.Query()`, and both log them and use them to return data.
  
@@ -37,7 +37,7 @@ Also learned the difference between `Println` and `Printf` in a practical contex
 
 **Link to work:** [GoREST](https://github.com/clcollins/gorest)
 
-### Day 3: May 20th, 2018
+### Day 3: May 20, 2018
 
 **Today's Progress**:  No real actual progress today, which is frustrating.  I played around with Structs, and tried to understand what I was doing.  Along with that, tried to encode json from a struct, and failed.  Or perhaps succeeded, but was printing something I didn't expect.  I spend the last part of the time trying tweaking some tests.
 
@@ -46,7 +46,7 @@ Also learned the difference between `Println` and `Printf` in a practical contex
 **Link to work:** [GoREST](https://github.com/clcollins/gorest)
 
 
-### Day 4: May 21th, 2018
+### Day 4: May 21, 2018
 
 **Today's Progress**:  Did a bunch of reading & random testing of Structs, trying to learn how they work.
 
@@ -60,7 +60,7 @@ Also learned the difference between `Println` and `Printf` in a practical contex
 1. [My GoTour & Related Code](https://github.com/clcollins/gotour)
 2. [Trying out inherited\(?\) structs](https://play.golang.org/p/IgfztiWDFyr)
 
-### Day 5: May 21th, 2018
+### Day 5: May 22, 2018
 
 **Today's Progress**: Today wrote my own impelmentation of the [RabbitMQ Golang sender example](https://www.rabbitmq.com/tutorials/tutorial-one-go.html), with functions and a few vars.
 
@@ -71,6 +71,20 @@ Also learned the difference between `Println` and `Printf` in a practical contex
 2. Had some trouble getting used to declaring return variables, but getting the hang of it.
 
 3. Found two flaws in the RabbitMQ Go example!
+
+**Link to work:** 
+
+1. [GoBunny](https://github.com/clcollins/gobunny)
+
+### Day 6: May 23, 2018
+
+**Today's Progress**: I added a receiver function to the code I wrote yesterday, following the  [RabbitMQ Golang receiver example](https://www.rabbitmq.com/tutorials/tutorial-one-go.html), and added a parser for command line arguments so whether or not the binary sends or receives is determined via the command line arguments
+
+**Thoughts:**
+
+1. I cannot, for some reason, get the actual message to parse from the "send" sub-command, so every send message is the default.  Will look closer tomorrow.
+2. RabbitMQ is slick.  I already knew this, but it reinforces it.
+3. I sort of get pointers.  I know how they work, but not really maybe *why* or the underlying idea of it.
 
 **Link to work:** 
 
