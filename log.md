@@ -89,3 +89,21 @@ Also learned the difference between `Println` and `Printf` in a practical contex
 **Link to work:** 
 
 1. [GoBunny](https://github.com/clcollins/gobunny)
+
+### Day 7-8: May 26, 2018
+
+**Today's Progress**: I missed days 7 and 8 due to injury, so I did two hours of coding today to make it up, and will do two hours tomorrow to cover today's and tomorrow's code.
+
+Today, I didn't make a ton of progress, but I did dive in a bit to learn more about the `flags` package, correcting some assumptions I had and writing a test program to verify how it works.  I also learned how to reference environment variables in Go, so that the GoBunny RabbitMQ clients I've been working on can set the server to connect via env var, as is a normal way in the Docker world.  Finally, I fixed some errors in the Docker Compose and README.md documentation.
+
+**Thoughts:**
+
+1. Now that I understand the flags command better, I see how it works.  I want to say it's not as easy as Python's Argparse, but, really, Argparse is stupid and complicated; I just know it.
+
+2. It's harder to troubleshoot go code.  Writing out a dummy program, or leaving in bad code while you try to test just doesn't work.  I am pretty sure that's because it has to compile.  If I'd ever had to write C in college, I think I would be more used to it.  This does highlight one of the benefits of interpreted languages.
+
+
+**Link to work:** 
+
+1. [GoBunny](https://github.com/clcollins/gobunny)
+2. [My GoTour & Related Code](https://github.com/clcollins/gotour): specifically `flag.go`
