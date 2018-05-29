@@ -124,3 +124,36 @@ Today, I moved away from the RabbitMQ client in Go, as at this point it was more
 **Link to work:** 
 
 1. [GoDB](https://github.com/clcollins/godb)
+
+### Day 11-12: May 29, 2018
+
+**Today's Progress**: Another two hours of code in one day, finally catching up from missing a few days.
+
+Not productive in terms of output of new code, but I had several a-ha moments where the lightbulb came on.  I think I made a lot of _mental_ progress, even if I didn't make any _written_ progress.
+
+**Thoughts:**
+
+_Constants:_
+
+Somehow I got into this and didn't learn or think about constants, but that's a big part of some of the things I do - some hard-coded configuration info set at the top of the file, unlikely to be changed, but good to have, just in case.  I can go back and change all those `var host string = 'localhost'`, heh.
+
+_Astaxie must be a Dwarf Fortress player:_
+
+`err := errors.New("emit macho dwarf: elf header corrupted")`
+
+Instantly a fan.  Though, everyone should be, anyway.  The ["Build web application with Golang"](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/02.2.html) post of his/hers is one of the best introductions to Go for beginners that I've found.
+
+[Astaxie on Github](https://github.com/astaxie)
+
+_Maps!!:_
+
+"map behaves like a dictionary in Python. Use the form map[keyType]valueType to define it." - The aforementioned Astaxie
+
+SON OF A CRAP FOR CRAP - how has *this* eluded me?  No one stated it in so many terms and I was so confused by the format explanations elsewhere - `map[keyType]valueType` -  that I didn't pick up on it.  FINALLY, I get it.  I feel stupid though.  I should have figured that out.
+
+_The For control statement, and it's expressons:_
+
+This also eluded me for a bit.  ...for "some var" ; "some conditional" ; "somevar"...  Cool.
+
+**Link to work:** 
+2. [My GoTour & Related Code](https://github.com/clcollins/gotour): specifically `maps.go`
