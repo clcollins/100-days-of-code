@@ -107,3 +107,20 @@ Today, I didn't make a ton of progress, but I did dive in a bit to learn more ab
 
 1. [GoBunny](https://github.com/clcollins/gobunny)
 2. [My GoTour & Related Code](https://github.com/clcollins/gotour): specifically `flag.go`
+
+
+### Day 9-10: May 28, 2018
+
+**Today's Progress**: I did another two hours today to make up for another missed day.  Two more hours tomorrow, and I'll be back on track.
+
+Today, I moved away from the RabbitMQ client in Go, as at this point it was more of an exercise in how RabbitMQ worked, and less about how Go works.  I started down trying to learn to open a connection to a MySQL database, and to interact with said DB.  I took the opportunity to learn a bit about how to unmarshal YAML to a struct, and use the values of the struct to create a DSN.  I then used the DSN to open a connection to a remote MySQL database and check that the connection is there.
+
+**Thoughts:**
+
+1. I got very, very little done over the course of two hours.  I can see why some languages value having frameworks to do all of this for you.
+2. I think I have the hang of structs now, and how to use them.  I created one to store the credentials read from a YAML file, and another to format data going into the MySQL database.  That bit is starting to fall into place for me.
+
+
+**Link to work:** 
+
+1. [GoDB](https://github.com/clcollins/godb)
