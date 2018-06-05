@@ -157,3 +157,18 @@ This also eluded me for a bit.  ...for "some var" ; "some conditional" ; "someva
 
 **Link to work:** 
 2. [My GoTour & Related Code](https://github.com/clcollins/gotour): specifically `maps.go`
+
+### Day 13: June 4, 2018
+
+**Today's Progress**: Illness and Injury are trying there best to prevent me from doing this, and I have missed a few days, but I'm back in the saddle.  Today I wrote a REST API application following the direction of [Mohamed Labouardy's article](https://hackernoon.com/build-restful-api-in-go-and-mongodb-5e7f2ec4be94).
+
+**Thoughts:**
+
+This is starting to come together for me, I think.  I feel comfortable with almost everything from this exercise, though I didn't write it from scratch.  I think I will implement a few different API exercises until I'm comfortable with writing the code from scratch.
+
+I like the way routing works with the Gorilla/Mux package.  Straight-forward, and easy to understand.
+
+My [goContainerFramework](https://github.com/clcollins/goContainerFramework) works really well for bootstrapping these projects, allowing easy plug-in of databases, etc, with the exception that I'm copying too many files into the resulting contianer.  I think I can fix this by tweaking the builder script, though.
+
+**Link to work:** 
+1. [goRestApp](https://github.com/clcollins/goRestApp)
