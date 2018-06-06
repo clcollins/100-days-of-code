@@ -172,3 +172,13 @@ My [goContainerFramework](https://github.com/clcollins/goContainerFramework) wor
 
 **Link to work:** 
 1. [goRestApp](https://github.com/clcollins/goRestApp)
+
+### Day 14: June 5, 2018
+
+**Today's Progress**: Spent some time today trying to wrap my head around Golang's html/template package.  I think I understand the package itself, but I cannot seem to get my data into it.  I think I don't understand the model concept.
+
+**Thoughts:** A frustrating day with not so much progress, but I at least feel as though I understand the gorilla/mux routing - I was able to get responses immediately, and parse them.  So, I am making overall progress.
+
+**Link to work:** 
+1. [goRestApp](https://github.com/clcollins/goRestApp)
+
